@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Ubuntu:wght@300&display=swap');
+
+/* font-family: 'Dancing Script', cursive;
+font-family: 'Ubuntu', sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+    position: absolute;
+    width: 99vw;
+}
+#logo {
+    font-family: 'Dancing Script', cursive;
+    margin: 11px 46px 5px 14px;
+    font-size: 34px;
+    color: white;
+
+}
+.navbar{
+    background: linear-gradient(#663a82,#52307c);
+    height: 10vh;
+    width: 99vw;
+    transition: all 0.3s ease-in;
+    position: fixed;
+}
+.navbar, .navbar ul{
+    display: flex;
+    justify-content: space-around;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+.navbar li {
+    list-style: none;
+    border: 1.5px solid #3f1651;
+    border-radius: 20px;
+    margin: 13px 10px 20px 3px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 16px;
+    
+}
+.navbar li:hover{
+    background-color: #bca0dc;
+    
+}
+
+.home{
+    display: flex;
+    background-color: #0c0b23; 
+    color: #b491c8;
+    justify-content: space-between;
+    height: 100vh;
+    
+}
+.home img{
+    height: 50%;
+    width: 25%;
+    border-radius: 100%;
+    margin-right: 10vw;
+    margin-top: 30vh;
+    
+}
+
+.text{
+    margin-top: 40vh;
+    margin-left: 10vw;
+    
+}
+
+.text-1{
+    font-size: 30px;
+    margin-bottom: 1vw;
+}
+.text-2{
+    font-size: 60px;
+    margin-bottom: 1vw;
+    font-weight: 800;
+}
+.text-3{
+    font-size: 40px;
+}
+.text-3 span{
+    color: #3c1361;
+    font-weight: 800;
+}
+.aboutme{
+    background-color: #663a82;
+    text-align: center;
+    padding: 10vh 0;
+     
+    
+}
+.aboutme h2{
+    font-size: 30px;
+    color: #0c0b23;
+}
+.aboutme p{
+    padding-top: 3vh;
+    color: #0c0b23;
+    font-size: 20px;
+
+}
+.aboutme span{
+    color: #3c1361;
+    font-weight: 600;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+
+}
+.rightcolumn img{
+    height: 50vh;
+    width: 50vh;
+    margin-right: 10vw;
+    margin-top: 15vh;
+}
+.leftcolumn{
+    background-color: #b491c8;
+    height: 50vh;
+    width: 40vw;
+    border-radius: 15px;
+    border: 1px solid #0c0b23;
+    margin-left: 5vw;
+    margin-top: 15vh;
+}
+.leftcolumn li{
+    list-style-type: none;
+    margin-top: 3vh;
+    font-size: 25px;
+    margin-bottom: 3vh;
+    text-align: left;
+    margin-left: 2vw;
+}
+#cv{
+    padding: 2%;
+    border-radius: 10px;
+    background-color: #0c0b23;
+    color: white;
+    margin-top: 2vh;
+    cursor: pointer;
+}
+#cv:hover{
+    background-color: rgb(38, 5, 69);
+    
+}
+.skills{
+    text-align: center;
+    background-color: #0c0b23;
+    color: white;
+    padding: 8vh 0;
+}
+.skills h2, .skills h3{
+    margin-top: 4vh;
+    margin-bottom: 3vh;
+}
+.skills h2{
+    font-size: 30px;
+}
+.languages{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.languages img,p{
+    margin: 0 1vw;
+}
+#py{
+    background-color: yellow;
+    padding: 0.30% 0.6%;
+    font-weight: 900;
+    color: black;
+    font-size: 14.5px;
+}
+.db img{
+    margin: 0 1vw;
+}
+
+
+.experience{
+    text-align: center;
+    background-color: #b491c8;
+    padding: 9vh 0;
+}
+.experience img{
+    padding: 2vh;
+    height: 200px;
+    border-radius: 10px;
+}
+.experience h2{
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    font-size: 30px;
+}
+.experience h3{
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    font-size: 20px;
+}
+.experience p{
+    padding-top: 1vh;
+    padding-bottom: 4vh;
+    font-size: 18px;
+    width: 50vw;
+    margin: auto;
+    text-align: center;
+    font-weight: bolder;
+}
+.contact{
+    background-color: #663a82;
+    padding: 8vh 0;
+}
+
+.contact h2{
+    font-size: 30px;
+    color: #0c0b23;
+    text-align: center;
+    padding-top: 3vh;
+}
+.details{
+    text-align: left;
+}
+.row{
+    display: flex;
+    height: 65px;
+    align-items: center;
+    margin-left: 5.5vw;
+    margin-top: 5vh;
+}
+
+.head, .sub-title{
+    padding-top: 0.6vh;
+    padding-left: 1vw;
+}
+.head{
+    font-weight: 800;
+    font-size: 21px;
+}
+.sub-title{
+    color:#b491c8;
+}
+footer{
+    background-color: #0c0b23;
+    height: 7vh;
+    padding: 9vh 0;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+footer i{
+    margin-right: 1vw;
+}
+.column-content{
+    display: flex;
+}
+.details{
+    width: 50vw;
+}
+
+
